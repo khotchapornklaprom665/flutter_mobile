@@ -1,5 +1,9 @@
 import 'package:first_app/week3.dart';
 import 'package:flutter/material.dart';
+import 'greeting_widget.dart';
+import 'package:first_app/form_regitration.dart';
+import 'package:first_app/aqi_example/aqi_example.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -16,9 +20,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: MyWidget(),
+      home: const ApiExample(),
     );
   }
 }
-
-
